@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class MainController {
 
-	@GetMapping
+	@GetMapping("/")
 	public String showform() {
 		System.out.println("page loaded");
 		return "welcome spring boot page !";
