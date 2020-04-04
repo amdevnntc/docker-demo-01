@@ -16,6 +16,10 @@ public class MainController {
 	public String helloprint() {
 		return "hello";
 	}
+	@GetMapping("/jenkins")
+	public String hellojenkins() {
+		return "hello jenkins";
+	}
 	
 
 }
