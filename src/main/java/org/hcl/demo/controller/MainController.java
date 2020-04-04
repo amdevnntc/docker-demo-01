@@ -14,7 +14,7 @@ public class MainController {
 	
 	@GetMapping("/hello")
 	public String helloprint() {
-		return "hello";
+		return "hello build1";
 	}
 	@GetMapping("/jenkins")
 	public String hellojenkins() {
