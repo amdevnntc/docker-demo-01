@@ -12,5 +12,10 @@ public class MainController {
 		return "welcome spring boot page !";
 	}
 	
+	@GetMapping("/hello")
+	public String helloprint() {
+		return "hello";
+	}
+	
 
 }
